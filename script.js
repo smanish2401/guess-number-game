@@ -1,4 +1,4 @@
-let randomNumber = parseInt(Math.random() * 100 + 1);
+let randomNumber = parseInt(Math.random()*100 +1);
 console.log(randomNumber)
 
 const submit = document.querySelector('#subt');
@@ -79,7 +79,7 @@ function endGame() {
 }
 
 function newGame() {
-    const newGamebtn = document.querySelector('#newGame')
+    const newGamebtn = document.querySelector('.button')
     newGamebtn.addEventListener('click', function(e){
         randomNumber = parseInt(Math.random() * 100 + 1);
         prevGuess=[];
